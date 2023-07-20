@@ -4,7 +4,7 @@ export default function Services() {
 
   return (
     <div>
-      Hello Services
+      <img src="1.jpg" alt='hello'/>
     </div>
   )
 }

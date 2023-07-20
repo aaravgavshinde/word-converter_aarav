@@ -123,22 +123,24 @@ function App(props) {
     }
   }
 
+
   
+
   return (
     <>
       {/* <Router> */}
-        <Nav showAlert={showAlert} toggleStyle={toggleStyle} toggleColor1={toggleColor1} toggleColor2={toggleColor2} toggleColor3={toggleColor3} toggleColor4={toggleColor4} mode={mode} mode1={mode1} />
-        <Alert alert={alert} />
-        <div className="container my-3">
+      <Nav showAlert={showAlert} toggleStyle={toggleStyle} toggleColor1={toggleColor1} toggleColor2={toggleColor2} toggleColor3={toggleColor3} toggleColor4={toggleColor4} mode={mode} mode1={mode1} />
+      <Alert alert={alert} />
+      <div className="container my-3">
           {/* <Routes> */}
             {/* <Route exact path="/" element={<TextForm showAlert={showAlert} toggleStyle={toggleStyle} dlstyle={dlstyle} btnText={btnText} mode2={mode2} mode3={mode3} />} /> */}
             {/* <Route exact path="/dlmode" element={<DLMode dlstyle={dlstyle} />} /> */}
             {/* <Route exact path="/services" element={<Services />} /> */}
           {/* </Routes> */}
-          <TextForm showAlert={showAlert} toggleStyle={toggleStyle} dlstyle={dlstyle} btnText={btnText} mode2={mode2} mode3={mode3} />
-          <DLMode dlstyle={dlstyle} />
-          <Services />
-        </div>
+        <TextForm showAlert={showAlert} toggleStyle={toggleStyle} dlstyle={dlstyle} btnText={btnText} mode2={mode2} mode3={mode3} />
+        <DLMode dlstyle={dlstyle} />
+        <Services />
+      </div>
       {/* </Router> */}
     </>
   );
