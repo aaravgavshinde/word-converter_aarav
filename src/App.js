@@ -1,9 +1,7 @@
 import Nav from "./Components/Nav";
 import TextForm from "./Components/TextForm";
-import DLMode from "./Components/DLMode";
-import Services from "./Components/Services";
 import Alert from "./Components/Alert";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useState } from 'react'
 
 function App(props) {
@@ -138,8 +136,6 @@ function App(props) {
             {/* <Route exact path="/services" element={<Services />} /> */}
           {/* </Routes> */}
         <TextForm showAlert={showAlert} toggleStyle={toggleStyle} dlstyle={dlstyle} btnText={btnText} mode2={mode2} mode3={mode3} />
-        <DLMode dlstyle={dlstyle} />
-        <Services />
       </div>
       {/* </Router> */}
     </>
