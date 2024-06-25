@@ -47,7 +47,7 @@ export default function TextForm(props) {
 
   return (
     <div>
-      <div className="mb-3">
+      <div className="mb-3 mt-5">
         {/* <div className="form-check form-switch">
           <input style={props.dlstyle} className="form-check-input" onClick={props.toggleStyle} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
           <span style={props.dlstyle} className='border border-1 p-1 rounded'>{props.btnText}</span>
